@@ -250,7 +250,7 @@ const styles = `
 `;
 
 const application = async (request: Request) => {
-	 const url = new URL(request.url);
+   const url = new URL(request.url);
    const search = new URLSearchParams(url.search);
    const params = Object.fromEntries(search.entries());
 
